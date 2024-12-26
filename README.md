@@ -1,2 +1,2 @@
 # Improving-Clip-Training
-OPen AI CLIP
+Open AI CLIP
