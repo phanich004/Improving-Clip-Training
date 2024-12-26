@@ -4,6 +4,8 @@ Overview
 CLIP uses a dual-encoder architecture to map images and text into a shared latent space:
 Image Encoder: ResNet-50 (ImageNet pretrained)
 Text Encoder: DistilBERT (pretrained on BookCorpus & Wikipedia)
+![image](https://github.com/user-attachments/assets/c1f3047d-a68e-4d82-ace3-af28d2ab0c59)
+
 # Dataset
 Training: 100k subset of Conceptual Captions 3M (CC3M)1
 Validation:
