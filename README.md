@@ -1,6 +1,6 @@
 # Improving-Clip-Training
 This project explores different approaches to enhance CLIP (Contrastive Language-Image Pre-training) training by comparing various optimizers and loss functions.
-Overview
+## Overview
 CLIP uses a dual-encoder architecture to map images and text into a shared latent space:
 Image Encoder: ResNet-50 (ImageNet pretrained)
 Text Encoder: DistilBERT (pretrained on BookCorpus & Wikipedia)
@@ -11,7 +11,7 @@ Training: 100k subset of Conceptual Captions 3M (CC3M)1
 Validation:
 MSCOCO validation dataset (for retrieval)
 ImageNet validation dataset (for zero-shot classification)
-Experiments
+## Experiments
 Optimizers Tested
 AdamW (default)
 Stochastic Gradient Descent (SGD)
@@ -27,7 +27,7 @@ Best Performing Configurations
 AdamW + CyCLIP: 16.9% average performance
 AdamW + SogCLR: 16.68% average performance
 AdamW + CLIP: 14.81% average performance
-Key Findings
+## Key Findings
 AdamW consistently outperforms both SGD and Adam across all loss functions
 SGD shows moderate performance only with CLIP and CyCLIP loss functions
 Adam performs poorly across all loss functions
